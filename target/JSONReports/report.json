@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-04T06:19:08.874Z",
+        "line": 13,
+        "name": "Check whether the login credentials are working or not",
+        "description": "",
+        "id": "to-test-the-login-functionality;check-whether-the-login-credentials-are-working-or-not;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4641368500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Website is opened using url",
+            "match": {
+              "location": "Step_Definations.Parametrization_Steps.website_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2275733900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the Rohan and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rohan",
+                  "offset": 16
+                },
+                {
+                  "val": "12345",
+                  "offset": 26
+                }
+              ],
+              "location": "Step_Definations.Parametrization_Steps.user_enters_the_name_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91618000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the Login button",
+            "match": {
+              "location": "Step_Definations.Parametrization_Steps.user_clicks_on_the_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-04T06:19:16.046Z",
+        "line": 14,
+        "name": "Check whether the login credentials are working or not",
+        "description": "",
+        "id": "to-test-the-login-functionality;check-whether-the-login-credentials-are-working-or-not;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3142159900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Website is opened using url",
+            "match": {
+              "location": "Step_Definations.Parametrization_Steps.website_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2288687100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the Mohit and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mohit",
+                  "offset": 16
+                },
+                {
+                  "val": "12345",
+                  "offset": 26
+                }
+              ],
+              "location": "Step_Definations.Parametrization_Steps.user_enters_the_name_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97944800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the Login button",
+            "match": {
+              "location": "Step_Definations.Parametrization_Steps.user_clicks_on_the_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-04T06:19:21.586Z",
+        "line": 15,
+        "name": "Check whether the login credentials are working or not",
+        "description": "",
+        "id": "to-test-the-login-functionality;check-whether-the-login-credentials-are-working-or-not;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2899337100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Website is opened using url",
+            "match": {
+              "location": "Step_Definations.Parametrization_Steps.website_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2309672800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the Priya and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Priya",
+                  "offset": 16
+                },
+                {
+                  "val": "12345",
+                  "offset": 26
+                }
+              ],
+              "location": "Step_Definations.Parametrization_Steps.user_enters_the_name_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112937900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the Login button",
+            "match": {
+              "location": "Step_Definations.Parametrization_Steps.user_clicks_on_the_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test the Login Functionality",
+    "description": "",
+    "id": "to-test-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Parametrization.feature",
+    "tags": []
+  }
+]
