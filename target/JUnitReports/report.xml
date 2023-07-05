@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="18.479">
-    <testcase classname="To test the Login Functionality" name="Check whether the login credentials are working or not" time="7.154">
-        <system-out><![CDATA[Given Website is opened using url...........................................passed
-When user enters the Rohan and 12345........................................passed
-Then user clicks on the Login button........................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="6.923">
+    <testcase classname="Check login functionality" name="_2" time="4.698">
+        <system-out><![CDATA[Given use is on the login page..............................................passed
+When user enters valid username and password................................passed
+And Clicks on the login button..............................................passed
+Then user is navigated to the home page.....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="To test the Login Functionality" name="Check whether the login credentials are working or not 2" time="5.533">
-        <system-out><![CDATA[Given Website is opened using url...........................................passed
-When user enters the Mohit and 12345........................................passed
-Then user clicks on the Login button........................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="To test the Login Functionality" name="Check whether the login credentials are working or not 3" time="5.324">
-        <system-out><![CDATA[Given Website is opened using url...........................................passed
-When user enters the Priya and 12345........................................passed
-Then user clicks on the Login button........................................passed
+    <testcase classname="Check login functionality" name="_3" time="1.767">
+        <system-out><![CDATA[Given use is on the login page..............................................passed
+When user enters valid username and password................................passed
+And Clicks on the login button..............................................passed
+Then user is navigated to the home page.....................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

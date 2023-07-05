@@ -1,160 +1,169 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Feature/Parametrization.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Hooks%20Demo/Hooks.feature");
 formatter.feature({
-  "name": "To test the Login Functionality",
+  "name": "Check login functionality",
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "name": "Check whether the login credentials are working or not",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "Website is opened using url",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "user enters the \u003cname\u003e and \u003cpassword\u003e",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "user clicks on the Login button",
-  "keyword": "Then "
-});
-formatter.examples({
+formatter.scenario({
   "name": "",
   "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "name",
-        "password"
-      ]
-    },
-    {
-      "cells": [
-        "Rohan",
-        "12345"
-      ]
-    },
-    {
-      "cells": [
-        "Mohit",
-        "12345"
-      ]
-    },
-    {
-      "cells": [
-        "Priya",
-        "12345"
-      ]
-    }
-  ]
+  "keyword": "Scenario"
 });
-formatter.scenario({
-  "name": "Check whether the login credentials are working or not",
-  "description": "",
-  "keyword": "Scenario Outline"
+formatter.before({
+  "status": "passed"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
 });
 formatter.step({
-  "name": "Website is opened using url",
+  "name": "use is on the login page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Step_Definations.Parametrization_Steps.website_is_opened()"
+  "location": "Steps_For_Hooks.Hooks_Steps.use_is_on_the_login_page()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.afterstep({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
 formatter.step({
-  "name": "user enters the Rohan and 12345",
+  "name": "user enters valid username and password",
   "keyword": "When "
 });
 formatter.match({
-  "location": "Step_Definations.Parametrization_Steps.user_enters_the_name_and_password(java.lang.String,java.lang.String)"
+  "location": "Steps_For_Hooks.Hooks_Steps.user_enters_valid_username_and_password()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.afterstep({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
 formatter.step({
-  "name": "user clicks on the Login button",
+  "name": "Clicks on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps_For_Hooks.Hooks_Steps.clicks_on_the_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.afterstep({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is navigated to the home page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Step_Definations.Parametrization_Steps.user_clicks_on_the_Login_button()"
+  "location": "Steps_For_Hooks.Hooks_Steps.user_is_navigated_to_the_home_page()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.afterstep({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Check whether the login credentials are working or not",
+  "name": "",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
 });
 formatter.step({
-  "name": "Website is opened using url",
+  "name": "use is on the login page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Step_Definations.Parametrization_Steps.website_is_opened()"
+  "location": "Steps_For_Hooks.Hooks_Steps.use_is_on_the_login_page()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.afterstep({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
 formatter.step({
-  "name": "user enters the Mohit and 12345",
+  "name": "user enters valid username and password",
   "keyword": "When "
 });
 formatter.match({
-  "location": "Step_Definations.Parametrization_Steps.user_enters_the_name_and_password(java.lang.String,java.lang.String)"
+  "location": "Steps_For_Hooks.Hooks_Steps.user_enters_valid_username_and_password()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.afterstep({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
 formatter.step({
-  "name": "user clicks on the Login button",
+  "name": "Clicks on the login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps_For_Hooks.Hooks_Steps.clicks_on_the_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.afterstep({
+  "status": "passed"
+});
+formatter.beforestep({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is navigated to the home page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Step_Definations.Parametrization_Steps.user_clicks_on_the_Login_button()"
+  "location": "Steps_For_Hooks.Hooks_Steps.user_is_navigated_to_the_home_page()"
 });
 formatter.result({
   "status": "passed"
 });
-formatter.scenario({
-  "name": "Check whether the login credentials are working or not",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "Website is opened using url",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Step_Definations.Parametrization_Steps.website_is_opened()"
-});
-formatter.result({
+formatter.afterstep({
   "status": "passed"
 });
-formatter.step({
-  "name": "user enters the Priya and 12345",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Step_Definations.Parametrization_Steps.user_enters_the_name_and_password(java.lang.String,java.lang.String)"
-});
-formatter.result({
+formatter.after({
   "status": "passed"
 });
-formatter.step({
-  "name": "user clicks on the Login button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Step_Definations.Parametrization_Steps.user_clicks_on_the_Login_button()"
-});
-formatter.result({
+formatter.after({
   "status": "passed"
 });
 });
